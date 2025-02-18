@@ -1,6 +1,5 @@
 import bisect
 
-
 def solution(words, queries):
     word_dict = {}
     reverse_word_dict = {}
@@ -46,6 +45,3 @@ def solution(words, queries):
             answer.append(right_index - left_index)
 
     return answer
-
-
-```
